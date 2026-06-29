@@ -4,7 +4,7 @@ This project demonstrates how to deploy a simple Nginx web server using Docker C
 
 ## Project Structure
 
-```
+```text
 .
 ├── docker-compose.yml
 ├── index.html
@@ -18,6 +18,8 @@ This project demonstrates how to deploy a simple Nginx web server using Docker C
 - Nginx
 - Google Cloud Platform (GCP)
 - Ubuntu Linux
+
+---
 
 ## Local Deployment
 
@@ -41,11 +43,11 @@ http://localhost:8080
 
 ### Screenshot - Local Docker Deployment
 
-[INSERT LOCAL DOCKER SCREENSHOT HERE]
+<img width="1512" height="982" alt="Ekran Resmi 2026-06-29 15 29 35" src="PASTE_LOCAL_DEPLOYMENT_IMAGE_LINK_HERE" />
 
 ### Screenshot - Local Browser Access
 
-[INSERT LOCALHOST SCREENSHOT HERE]
+<img width="1161" height="408" alt="Ekran Resmi 2026-06-29 14 43 36" src="PASTE_LOCAL_BROWSER_IMAGE_LINK_HERE" />
 
 ---
 
@@ -69,15 +71,16 @@ Verify the deployment:
 ```bash
 docker ps
 curl http://localhost:8080
+curl http://35.241.129.163:8080
 ```
 
 ### Screenshot - VM Deployment
 
-[INSERT VM TERMINAL SCREENSHOT HERE]
+<img width="1512" height="982" alt="Ekran Resmi 2026-06-29 15 40 39" src="PASTE_VM_DEPLOYMENT_IMAGE_LINK_HERE" />
 
 ### Screenshot - VM Verification
 
-[INSERT CURL SCREENSHOT HERE]
+<img width="1512" height="982" alt="Ekran Resmi 2026-06-29 14 44 26" src="PASTE_VM_VERIFICATION_IMAGE_LINK_HERE" />
 
 ---
 
@@ -87,7 +90,7 @@ A firewall rule was created to allow inbound TCP traffic on port 8080.
 
 ### Screenshot - Firewall Rule
 
-[INSERT FIREWALL SCREENSHOT HERE]
+<img width="1512" height="982" alt="Ekran Resmi 2026-06-29 15 42 51" src="PASTE_FIREWALL_IMAGE_LINK_HERE" />
 
 ---
 
@@ -103,10 +106,20 @@ http://35.241.129.163:8080
 
 ### Screenshot - Public Access
 
-[INSERT PUBLIC IP SCREENSHOT HERE]
+<img width="1512" height="982" alt="Ekran Resmi 2026-06-29 15 40 46" src="PASTE_PUBLIC_ACCESS_IMAGE_LINK_HERE" />
 
 ---
 
 ## Result
 
-The Nginx container was successfully deployed using Docker Compose on both a local machine and a Google Cloud VM. Access to the application was verified locally and through the VM's public IP address.
+The Nginx container was successfully deployed using Docker Compose on both a local machine and a Google Cloud VM.
+
+The deployment was verified through:
+
+- Docker container status checks (`docker ps`)
+- Local browser access (`localhost:8080`)
+- VM validation using `curl`
+- Public access through the VM external IP address
+- Google Cloud firewall configuration allowing inbound traffic on port 8080
+
+The application was successfully reachable both locally and externally, confirming that the deployment was completed successfully.
