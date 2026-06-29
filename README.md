@@ -43,11 +43,13 @@ http://localhost:8080
 
 ### Screenshot - Local Docker Deployment
 
-<img width="1512" height="982" alt="Ekran Resmi 2026-06-29 15 29 35" src="PASTE_LOCAL_DEPLOYMENT_IMAGE_LINK_HERE" />
+<img width="1161" height="408" alt="Ekran Resmi 2026-06-29 14 43 36" src="https://github.com/user-attachments/assets/70e5078a-587e-4523-bb07-9ce40ab062ae" />
+
 
 ### Screenshot - Local Browser Access
 
-<img width="1161" height="408" alt="Ekran Resmi 2026-06-29 14 43 36" src="PASTE_LOCAL_BROWSER_IMAGE_LINK_HERE" />
+<img width="1512" height="982" alt="Ekran Resmi 2026-06-29 14 44 26" src="https://github.com/user-attachments/assets/b2afe2d9-e53d-4bd2-9c50-ea9de06ee06f" />
+
 
 ---
 
@@ -76,11 +78,13 @@ curl http://35.241.129.163:8080
 
 ### Screenshot - VM Deployment
 
-<img width="1512" height="982" alt="Ekran Resmi 2026-06-29 15 40 39" src="PASTE_VM_DEPLOYMENT_IMAGE_LINK_HERE" />
+<img width="1512" height="704" alt="Ekran Resmi 2026-06-29 15 29 35" src="https://github.com/user-attachments/assets/c542fdc7-372c-4997-8178-8c747dd5759a" />
+
 
 ### Screenshot - VM Verification
 
-<img width="1512" height="982" alt="Ekran Resmi 2026-06-29 14 44 26" src="PASTE_VM_VERIFICATION_IMAGE_LINK_HERE" />
+<img width="1512" height="982" alt="Ekran Resmi 2026-06-29 15 40 39" src="https://github.com/user-attachments/assets/7c787205-f2a8-4316-873a-518252a56d2a" />
+
 
 ---
 
@@ -90,7 +94,8 @@ A firewall rule was created to allow inbound TCP traffic on port 8080.
 
 ### Screenshot - Firewall Rule
 
-<img width="1512" height="982" alt="Ekran Resmi 2026-06-29 15 42 51" src="PASTE_FIREWALL_IMAGE_LINK_HERE" />
+<img width="1512" height="982" alt="Ekran Resmi 2026-06-29 15 42 51" src="https://github.com/user-attachments/assets/17f89194-a921-47c1-aaf0-11f36d3a6e4c" />
+
 
 ---
 
@@ -106,7 +111,8 @@ http://35.241.129.163:8080
 
 ### Screenshot - Public Access
 
-<img width="1512" height="982" alt="Ekran Resmi 2026-06-29 15 40 46" src="PASTE_PUBLIC_ACCESS_IMAGE_LINK_HERE" />
+<img width="1512" height="982" alt="Ekran Resmi 2026-06-29 15 40 46" src="https://github.com/user-attachments/assets/fcef0cf6-20de-41ab-bea2-8872eeaccf1f" />
+
 
 ---
 
